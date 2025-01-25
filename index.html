@@ -21,18 +21,40 @@
         <p>Villanueva del Ariscal</p>
       </div>
       <nav>
-        <button class="boton-menu">
-          <img class="menu" src="./img/bars-solid.svg" alt="Menu" />
-        </button>
-
-        <div class="contenido-menu">
-          <ul>
+        <div class="menu-desktop">
+          <ul class="links">
+            <li class="dropdown">
+              <button class="dropdown-button">
+                <p>Sobre el club</p>
+                <img
+                  class="chevron"
+                  src="./img/chevron-down-solid.svg"
+                  alt="Abrir"
+                />
+              </button>
+            </li>
             <li><a href="#">Reservas</a></li>
             <li><a href="#">Contacto</a></li>
+          </ul>
+          <ul class="contenido-dropdown">
             <li><a href="#">Instalaciones</a></li>
             <li><a href="#">Actividades</a></li>
             <li><a href="#">Historia</a></li>
           </ul>
+        </div>
+        <div class="menu-mobile">
+          <button class="boton-menu">
+            <img class="menu" src="./img/bars-solid.svg" alt="Menu" />
+          </button>
+          <div class="contenido-menu">
+            <ul>
+              <li><a href="#">Reservas</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Instalaciones</a></li>
+              <li><a href="#">Actividades</a></li>
+              <li><a href="#">Historia</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>

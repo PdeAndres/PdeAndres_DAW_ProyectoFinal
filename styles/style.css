@@ -1,8 +1,10 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 p {
   margin: 0;
+  font-size: 16px;
 }
 
 a {
@@ -40,7 +42,9 @@ header {
 nav {
   position: relative;
 }
-
+.menu-desktop {
+  display: none;
+}
 .menu {
   width: 18px;
 }
