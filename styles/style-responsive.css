@@ -129,4 +129,33 @@
   .contenido-noticia {
     padding: 75px;
   }
+
+  /* FOOTER */
+
+  .footer {
+    flex-direction: row;
+    padding: 24px 0;
+    max-width: 600px;
+  }
+
+  .contacto {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .datos-contacto {
+    margin: 0;
+    text-align: left;
+  }
+  .redes-contacto {
+    margin: 0;
+  }
+
+  .seccion-patrocinadores {
+    align-items: flex-start;
+  }
+  .patrocinadores {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
 }
