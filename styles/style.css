@@ -2,6 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+h1 {
+  margin: 0;
+}
 h2 {
   margin: 0;
 }
@@ -139,11 +142,17 @@ nav {
 
 .seccion-noticias {
   text-align: center;
+  margin: 32 0px;
+}
+
+.seccion-noticias h1 {
+  margin-bottom: 32px;
 }
 .noticias {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 24px;
+  gap: 32px;
+  margin-bottom: 38px;
 }
 
 .noticia {
@@ -172,4 +181,15 @@ nav {
 .contenido-noticia p {
   font-size: 14px;
   line-height: 1.4;
+}
+
+/* BOTON VER MÁS*/
+
+.ver-mas {
+  background-color: rgba(0, 86, 167);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 16px;
+  padding: 12px 56px;
+  margin: 32px auto 0;
 }
