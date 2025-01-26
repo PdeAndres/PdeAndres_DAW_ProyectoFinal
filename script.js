@@ -1,10 +1,20 @@
 $(document).ready(function () {
   $(".boton-menu").click(() => {
-    $(".contenido-menu").fadeToggle();
+    var menu = $(".contenido-menu");
+    if (menu.css("display") === "none") {
+      menu.css("display", "flex");
+    } else {
+      menu.css("display", "none");
+    }
   });
 
   $(".dropdown").click(() => {
-    $(".contenido-dropdown").fadeToggle();
+    var dropdown = $(".contenido-dropdown li");
+    if (dropdown.css("display") === "none") {
+      dropdown.css("display", "flex");
+    } else {
+      dropdown.css("display", "none");
+    }
 
     $(".chevron").toggleClass("rotated");
   });
