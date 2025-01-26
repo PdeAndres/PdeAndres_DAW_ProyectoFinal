@@ -152,36 +152,23 @@ nav {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 32px;
   margin-bottom: 32px;
-  padding: 24px;
 }
 
 .noticia {
-  width: 100%;
-  max-width: 700px;
-  max-height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: rgba(0, 86, 167, 0.3);
-  margin: 0 auto;
 }
 
 .imagen-noticia {
-  order: -1;
   width: 100%;
-  height: 50%;
+  height: 100%;
   object-fit: cover;
   align-self: center;
 }
 
 .contenido-noticia {
-  min-height: 50%;
-  max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
+  padding: 32px 24px 8px;
   text-align: center;
 }
 
@@ -273,8 +260,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
-  margin-bottom: 48px;
 }
 
 .seccion-reservas h1 {
@@ -282,32 +267,10 @@ footer {
 }
 
 .reservas {
-  display: grid;
-  gap: 48px;
 }
 
 .reserva {
-  background-color: rgba(0, 86, 167, 0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding-bottom: 12px;
-  height: 312px;
-}
-
-.reserva img {
-  width: 100%;
-  height: 60%;
-  object-fit: cover;
 }
 
 .boton-reserva {
-  background-color: rgba(0, 86, 167);
-  color: #fff;
-  font-size: 12px;
-  border-radius: 4px;
-  padding: 12px 56px;
-  margin: 0 auto;
-  border: none;
 }
