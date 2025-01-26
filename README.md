@@ -1,6 +1,6 @@
 # PdeAndres_DAW_ProyectoFinal
 
-## 1. Wireframe y prototipo
+# 1. Wireframe y prototipo
 
 ### Justificación
 
@@ -11,8 +11,6 @@ Para mí, el tenis y el pádel han sido una parte importante de mi vida, pero de
 El proyecto consiste en desarrollar una página web para el club deportivo de mi pueblo, con el fin de que los usuarios puedan conocer más sobre el club, su historia y valores, así como obtener información detallada sobre las instalaciones disponibles y las actividades deportivas que se llevan a cabo, como clases, torneos y eventos.
 
 Además, la página incluirá la funcionalidad de realizar reservas para las distintas instalaciones. De este modo, se busca que los usuarios puedan gestionar fácilmente el uso de las diferentes instalaciones del club de manera rápida y sencilla, mejorando la experiencia de los miembros y facilitando la organización interna del club.
-
-# SECCIONES
 
 ## Home
 
@@ -38,7 +36,7 @@ En esta página, se podrá encontrar una lista de todas las pistas disponibles j
 
 [Movil_reservas](./img/readme-imagenes/Wireframe_Movil_Reservas.png)
 
-## 2. Colores del proyecto
+# 2. Colores del proyecto
 
 A continuación se describen los colores que se van a utilizar en la página web.
 
@@ -61,7 +59,7 @@ He elegido el color verde lima #A4D65E como color secundario porque representa n
 
 He elegido el blanco #FFFFFF y el negro #000000 como los colores principales para el texto. El blanco aporta claridad y legibilidad sobre los fondos oscuros, mientras que el negro lo hace sobre los fondos claros, asegurando que el contenido sea fácil de leer al contrastar bien con los colores elegidos para la web.
 
-## 3. Propuesta gráfica
+# 3. Propuesta gráfica
 
 A continuación se presenta la propuesta gráfica para las ventanas de Home y Reservas, incluyendo tanto la versión de escritorio como la versión móvil.
 
