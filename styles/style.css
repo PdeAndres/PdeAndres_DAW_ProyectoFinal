@@ -207,17 +207,23 @@ footer {
 .contacto {
   display: flex;
   width: 100%;
+  max-width: 500px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 .datos-contacto {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin: 0 auto;
+  text-align: center;
 }
 .redes-contacto {
   display: flex;
   gap: 24px;
+  margin: 0 auto;
 }
 
 .redes-contacto img {
