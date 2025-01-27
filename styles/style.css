@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,600&display=swap");
+
 body {
   font-family: "Open Sans";
   margin: 0;
@@ -163,7 +164,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 86, 167, 0.3);
+  background-color: rgba(164, 214, 94, 0.5);
   margin: 0 auto;
 }
 
@@ -199,8 +200,8 @@ nav {
 /* BOTON VER MÁS*/
 
 .ver-mas {
-  background-color: rgba(0, 86, 167);
-  color: #fff;
+  background-color: rgba(164, 214, 94);
+  color: black;
   font-size: 12px;
   border-radius: 16px;
   padding: 12px 56px;
@@ -288,7 +289,8 @@ footer {
 }
 
 .reserva {
-  background-color: rgba(0, 86, 167, 0.3);
+  background-color: rgba(164, 214, 94, 0.5);
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -304,8 +306,8 @@ footer {
 }
 
 .boton-reserva {
-  background-color: rgba(0, 86, 167);
-  color: #fff;
+  background-color: rgb(164, 214, 94);
+  color: black;
   font-size: 12px;
   border-radius: 4px;
   padding: 12px 56px;
