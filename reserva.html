@@ -35,7 +35,7 @@
                 />
               </button>
             </li>
-            <li><a href="#">Reservas</a></li>
+            <li><a href="./reservas.html">Reservas</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
           <ul class="contenido-dropdown">
@@ -61,40 +61,56 @@
       </nav>
     </header>
     <main>
-      <div class="seccion-reservas">
-        <h1>RESERVAS</h1>
-        <div class="reservas">
-          <div class="reserva">
-            <img src="./img/Pista_padel_1.png" alt="Pista de padel 1" />
-            <h2>Pista de Pádel 1</h2>
-            <p>8€ · Hora</p>
-            <a class="boton-reserva" href="./reserva.html">RESERVAR</a>
+      <div class="seccion-reserva">
+        <h1>RESERVA DE PISTA</h1>
+
+        <form class="form-reserva" action="#">
+          <div class="par">
+            <label class="label-reserva" for="">Nombre</label>
+            <div class="input-reserva">
+              <input type="text" placeholder="Nombre" />
+            </div>
           </div>
-          <div class="reserva">
-            <img src="./img/Pista_padel_2.png" alt="" />
-            <h2>Pista de Pádel 2</h2>
-            <p>8€ · Hora</p>
-            <a class="boton-reserva">RESERVAR</a>
+          <div class="par">
+            <label class="label-reserva" for="">Correo</label>
+            <div class="input-reserva">
+              <input type="text" placeholder="Correo electrónico" />
+            </div>
           </div>
-          <div class="reserva">
-            <img src="./img/Pista_tenis_1.png" alt="Pista de tenis " />
-            <h2>Pista de Tenis 1</h2>
-            <p>12€ · Hora</p>
-            <a class="boton-reserva">RESERVAR</a>
+          <div class="par">
+            <label class="label-reserva" for="pista">Pista</label>
+            <div class="input-reserva">
+              <select name="pista">
+                <option value="padel1">Pista pádel 1</option>
+                <option value="padel1">Pista pádel 2</option>
+                <option value="padel1">Pista tenis 1</option>
+                <option value="padel1">Pista tenis 2</option>
+              </select>
+            </div>
           </div>
-          <div class="reserva">
-            <img src="./img/Pista_tenis_2.png" alt="" />
-            <h2>Pista de Tenis 2</h2>
-            <p>12€ · Hora</p>
-            <a class="boton-reserva">RESERVAR</a>
+          <div class="par">
+            <label class="label-reserva" for="dia">Día</label>
+            <div class="input-reserva">
+              <input type="date" />
+            </div>
           </div>
-          <div class="reserva ultima-reserva">
-            <img src="./img/Pista_eventos.png" alt="Pista de Eventos" />
-            <h2>Pista de Eventos</h2>
-            <p>25€ · Hora</p>
-            <a class="boton-reserva">RESERVAR</a>
+          <div class="par">
+            <label class="label-reserva" for="hora">Hora</label>
+            <div class="input-reserva">
+              <select name="hora">
+                <option value="1">9:00 - 10:30</option>
+                <option value="2">10:30 - 12:00</option>
+                <option value="3">12:00 - 13:30</option>
+                <option value="4">16:00 - 17:30</option>
+                <option value="5">17:30 - 19:00</option>
+                <option value="6">19:00 - 20:30</option>
+                <option value="7">20:30 - 22:00</option>
+                <option value="8">22:00- 23:30</option>
+              </select>
+            </div>
           </div>
-        </div>
+          <button class="boton-reserva">Proceder con el pago</button>
+        </form>
       </div>
     </main>
     <footer>

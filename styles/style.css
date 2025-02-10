@@ -27,6 +27,18 @@ li {
   list-style: none;
 }
 
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 /* HEADER */
 header {
   width: calc(100% - 48px);
@@ -295,7 +307,7 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 32px;
   height: 312px;
 }
 
@@ -313,4 +325,62 @@ footer {
   padding: 12px 56px;
   margin: 0 auto;
   border: none;
+  cursor: pointer;
+}
+
+/* FORMULARIO RESERVA */
+
+.seccion-reserva {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion-reserva h1 {
+  margin: 32px 0;
+}
+.form-reserva {
+  padding: 2rem;
+  justify-content: center;
+  width: calc(100% - 4rem);
+  max-width: 400px;
+  display: grid;
+  grid-template-rows: repeat(7 1.5fr);
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+  font-size: 18px;
+  background-color: rgba(164, 214, 94, 0.3);
+  padding: 2rem;
+}
+
+.par {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.input-reserva {
+  background-color: #fff;
+  display: flex;
+  align-content: flex-start;
+  height: 30px;
+  align-items: center;
+  border: 1px solid black;
+
+  & > input {
+    width: 100%;
+    height: 100%;
+    padding-left: 12px;
+  }
+
+  & > select {
+    width: 100%;
+    height: 100%;
+    padding-left: 12px;
+  }
+}
+
+.label-reserva {
+  padding: 0 0 8px 0;
 }

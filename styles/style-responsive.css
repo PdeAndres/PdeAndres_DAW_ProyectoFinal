@@ -10,13 +10,16 @@
 
   header {
     width: calc(100% - 128px);
+    max-height: calc(150px - 48px);
     padding: 24px 64px;
     justify-content: flex-start;
   }
   .logo {
     height: 48px;
   }
-
+  .a {
+    cursor: pointer;
+  }
   nav {
     margin-left: auto;
   }
@@ -144,6 +147,7 @@
     flex-direction: row;
     padding: 24px 0;
     max-width: 600px;
+    max-height: 175px;
   }
 
   .contacto {
@@ -174,5 +178,27 @@
 
   .ultima-reserva {
     grid-column: 1 / 3;
+  }
+
+  /* FORMULARIO RESERVA  */
+
+  .seccion-reserva {
+    padding: 0 24px;
+  }
+  .form-reserva {
+    width: 100%;
+    padding: 2rem 4rem;
+    margin-bottom: 24px;
+  }
+  .input-reserva {
+    width: 100%;
+  }
+
+  .label-reserva {
+    padding-left: 2rem;
+  }
+
+  .par {
+    grid-template-columns: 1fr 2fr;
   }
 }
